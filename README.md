@@ -1,3 +1,27 @@
+
+# Antura Frontend test
+
+En liten React-app som ska innehålla följande:
+1. En knapp som hämtar random användare från https://randomuser.me/api/
+2. Visa laddningsindikator när anropet skickats iväg
+3. Visa felmeddelande om något gick fel
+4. Visa info om användare (valfritt format) om allt gick bra
+
+Använd gärna Create React App (https://github.com/facebook/create-react-app) eller ett annat verktyg för att starta igång projektet. Räkna med ca 2-3 timmar för att göra testet.
+
+Lägg gärna extra energi på det som du tycker är kul att jobba med och vill visa upp. Det vi använder dagligen på Antura är React, Typescript, Material UI. Gillar du att jobba med UX och styling, fokusera mer på utseendet/Material UI. Gillar du mer att skriva kod, fokusera på snygg kod, logik och kanske även enhetstester.
+ 
+ ## Mitt tillvägagångsätt
+ För att skapa grunden av appen med typescript: 
+ npx create-react-app my-app --template typescript
+
+
+
+
+--------------------------------
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
