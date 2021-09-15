@@ -11,17 +11,7 @@ Använd gärna Create React App (https://github.com/facebook/create-react-app) e
 
 Lägg gärna extra energi på det som du tycker är kul att jobba med och vill visa upp. Det vi använder dagligen på Antura är React, Typescript, Material UI. Gillar du att jobba med UX och styling, fokusera mer på utseendet/Material UI. Gillar du mer att skriva kod, fokusera på snygg kod, logik och kanske även enhetstester.
  
- ## Mitt tillvägagångsätt
- För att skapa grunden av appen med typescript: 
- npx create-react-app antura-frontend --template typescript
-
-
-
-
 --------------------------------
-
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

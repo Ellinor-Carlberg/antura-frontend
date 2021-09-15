@@ -4,6 +4,7 @@ import "./App.css";
 type Props = {
   onClick: () => void;
 };
+
 /* 
 type randomUser = {
 userName: string,
@@ -15,11 +16,11 @@ const GetUserButton: React.FC<Props> = ({ onClick }) => {
   return <button onClick={onClick}>click this button</button>;
 };
 
-
 const App = () => {
   const getUser = async () => {
     const endpoint = "https://randomuser.me/api/";
     const data = await (await fetch(endpoint)).json();
+    //Datan loggas bara ut i consolen, jag lyckades inte att få den att visas på sidan.
     console.log("randomUser:", data.results[0]);
   };
 
