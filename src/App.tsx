@@ -1,32 +1,40 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 type Props = {
   onClick: () => void;
 };
+/* 
+type randomUser = {
+userName: string,
+userGender: string
+}
+ */
 
 const GetUserButton: React.FC<Props> = ({ onClick }) => {
-  return (
-    <button onClick={onClick}>
-      Hämta användare
-    </button>
-  );
+  return <button onClick={onClick}>click this button</button>;
 };
-function App() {
 
-  const handleClick = () => {
-    alert("Hello World");
+
+const App = () => {
+  const getUser = async () => {
+    const endpoint = "https://randomuser.me/api/";
+    const data = await (await fetch(endpoint)).json();
+    console.log("randomUser:", data.results[0]);
   };
-  
+
   return (
     <div className="App">
-      <GetUserButton onClick={handleClick} />
+      <header>
+        <h1>get random </h1>
+        <h1 className="FontLora">user</h1>
+        <GetUserButton onClick={getUser} />
+      </header>
     </div>
   );
-}
+};
 
 export default App;
-
 
 /* 
 {"results":

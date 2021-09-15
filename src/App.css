@@ -1,4 +1,77 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background-color: #19171A;
+  color: #f7f7f7;
+
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width:fit-content;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+h1 {
+  font-size: 6rem;
+  letter-spacing: .35rem;
+}
+
+.FontLora {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  text-transform: lowercase;
+  position: absolute;
+  top: 10rem;
+  left: 0;
+}
+
+button {
+  margin: 1rem 0 0 auto;
+  padding: 1rem;
+  background-color: #000;
+  color: #f7f7f7;
+  border: 1px solid #FAB162;
+}
+
+
+button:hover {
+  cursor: pointer;
+  color: #FAB162; 
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 800px) {
+
+  h1 {
+    font-size: 3rem;
+    letter-spacing: .2rem;
+  }
+  .FontLora {
+    top: 7rem;
+    
+  }
+  
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px) {
+
+  h1 {
+    font-size: 2rem;
+    letter-spacing: .1rem;
+  }
+  .FontLora {
+    top: 6.5rem; 
+  }
+
+
+button {
+  margin: 3rem auto 0 auto;
+}
+  
+}
