@@ -13,7 +13,7 @@ Lägg gärna extra energi på det som du tycker är kul att jobba med och vill v
  
  ## Mitt tillvägagångsätt
  För att skapa grunden av appen med typescript: 
- npx create-react-app my-app --template typescript
+ npx create-react-app antura-frontend --template typescript
 
 
 
