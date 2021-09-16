@@ -52,7 +52,7 @@ button:hover {
     letter-spacing: .2rem;
   }
   .FontLora {
-    top: 7rem;
+    top: 7.5rem;
     
   }
   
@@ -66,12 +66,12 @@ button:hover {
     letter-spacing: .1rem;
   }
   .FontLora {
-    top: 6.5rem; 
+    top: 7rem; 
   }
 
 
 button {
-  margin: 3rem auto 0 auto;
+  margin: 4rem auto 0 auto;
 }
   
 }
